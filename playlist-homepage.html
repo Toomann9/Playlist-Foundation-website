@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist Africa Foundation</title>
+    <link rel="stylesheet" href="./homepage.css">
+    <link rel="icon" href="./playlist-logo.jpg" type="image/x-icon">
+    <meta name="description" content="Official website of Playlist Africa Foundation - Entertainment, Sports, and Empowerment. Discover our services, events, and more.">
+    <meta name="keywords" content="Playlist Africa Foundation, youth empowerment, music, web development, photography, artist, athlete, gym, tours, record label, body builder">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- logo area and navigation links below -->
+            <div class="logo">
+                <img src="./playlist-logo.jpg" alt="Official-logo-PNG">
+                <p>Playlist Africa Foundation</p>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to Playlist Africa Foundation</h1>
+            <p>Empowering through Entertainment and Sports</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Playlist Africa Foundation, we believe in the power of creativity and wellness to transform lives. <br> Our foundation is a vibrant hub where entertainment meets empowerment, offering top-notch music production, <br>dynamic gym and fitness programs, and cutting-edge website design and management services. <br>We also capture life's most unforgettable moments through our professional photography and videography services. <br>Whether you're an aspiring artist, a fitness enthusiast, or a business looking to make a mark online, <br>we're here to help you shine and achieve your goals. Together, let's create, inspire, and elevate.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services We Offer</h2>
+
+        <div class="program-slider">
+
+            <div class="program-card">
+                <img src="./music-artist.jpg" alt="Music Production PNG">
+                <h3>Music</h3>
+                <p>We provide financial & technical support to aspiring Liberian musicians...</p>
+            </div>
+            <div class="program-card">
+                <img src="./web-design.webp" alt="Website Design Photo">
+                <h3>Build & Manage Websites</h3>
+                <p>We design, build and manage websites of all types...</p>
+            </div>
+            <div class="program-card">
+                <img src="./video-pic.jpg" alt="Video Production PNG">
+                <h3>Photography & Video</h3>
+                <p>We do high quality photos & videos for all occasions & purposes...</p>
+            </div>
+            <div class="program-card">
+                <img src="./Thomas-Soko.jpg" alt="Gym & Fitness Photo">
+                <h3>Gym & Fitness</h3>
+                <p>We support fitness goals. A strong partner of the Liberian Strongman Association...</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="events">
+        <h2>Major Events</h2>
+
+        <div class="program-slider">
+
+            <div class="program-card">
+                <img src="./slider-two.png" alt="Music Workshop">
+                <h3>Music Workshops</h3>
+                <p>We provide music workshops for aspiring musicians...</p>
+            </div>
+            <div class="program-card">
+                <img src="./slider-one.png" alt="Sports Event">
+                <h3>Sports Events</h3>
+                <p>Join our sports events to stay active and healthy...</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Playlist Africa Foundation. All rights reserved.</p>
+    </footer>
+
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+            emailjs.init("lsWl0x3jXVHDvf9uh"); // Replace with your EmailJS user ID
+        })();
+    </script>
+
+    <script src="./scripts.js"></script>
+</body>
+</html>
