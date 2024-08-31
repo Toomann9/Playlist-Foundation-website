@@ -88,7 +88,7 @@ nav{
 }
 
 .hero{
-    background: url('./StockCake-Desert\ Oasis\ Panorama_1723593837.jpg') no-repeat center center/cover;
+    background: url('./photos/StockCake-Desert\ Oasis\ Panorama_1723593837.jpg') no-repeat center center/cover;
     height: 100vh;
     color: #fff;
     display: flex;
@@ -146,7 +146,7 @@ h2{
     /* border: 1px solid black; */
     /* margin: 0 auto; */
     /* background-color: #8b8b8b; */
-    background: url('./StockCake-Ethereal\ Sky\ Art_1723593195.jpg') no-repeat center center/cover;
+    background: url('./photos/StockCake-Ethereal\ Sky\ Art_1723593195.jpg') no-repeat center center/cover;
     height: 100vh;
 }
 
